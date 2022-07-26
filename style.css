@@ -1,0 +1,56 @@
+body{
+    font-family: "PKMN RBYGSC";
+    background-image: url('images/sky_background.png');
+}
+
+.pad_row_1{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: center
+}
+
+.pad_row_2{
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: center
+}
+
+.pad1{
+    margin: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pad2{
+    margin: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pad3{
+    margin: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pad4{
+    margin: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pad5{
+    margin: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pad6{
+    margin: 25px;
+    text-align: center;
+    cursor: pointer;
+}

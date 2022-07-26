@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PAD ROW 1 -->
+    
+    <div class="pad_row_1">
+
+        <div class="pad1">
+            <img src="/images/sprites/slowpoke_sprite.gif" onclick="document.getElementById('audio1').play();">
+            <p>1</p>
+            <p>Slowpoke</p> 
+        </div>
+
+        <div class="pad2"> 
+            <img src="/images/sprites/porygon2_sprite.gif" onclick="document.getElementById('audio2').play();">
+            <p>2</p>
+            <p>Porygon2</p> 
+        </div>
+
+        <div class="pad3">
+            <img src="/images/sprites/voltorb_sprite.gif" onclick="document.getElementById('audio3').play();"> 
+            <p>3</p>
+            <p>Voltorb</p>
+        </div>
+
+    </div>
+
+    <!-- PAD ROW 2 -->
+
+    <div class="pad_row_2">
+
+        <div class="pad4">
+            <img src="/images/sprites/gengar_sprite.gif" onclick="document.getElementById('audio4').play();"> 
+            <p>4</p>
+            <p>Gengar</p> 
+        </div>
+
+        <div class="pad5">
+            <img src="/images/sprites/skarmory_sprite.gif" onclick="document.getElementById('audio5').play();">
+            <p>5</p>
+            <p>Skarmory</p>
+        </div>
+
+        <div class="pad6"> 
+            <img src="/images/sprites/snorlax_sprite.gif" onclick="document.getElementById('audio6').play();">
+            <p>6</p>
+            <p>Snorlax</p>
+        </div>
+
+    </div>
+
+        <!-- AUDIO ID -->
+
+        <audio id="audio1" controls style="display:none">
+            <source src="sounds/cries/slowpoke_cry.mp3" type="audio/mpeg">
+        </audio>
+    
+        <audio id="audio2" controls style="display:none">
+            <source src="sounds/cries/porygon2_cry.mp3" type="audio/mpeg">
+        </audio>
+    
+        <audio id="audio3" controls style="display:none">
+            <source src="sounds/cries/voltorb_cry.mp3" type="audio/mpeg">
+        </audio>
+    
+        <audio id="audio4" controls style="display:none">
+            <source src="sounds/cries/gengar_cry.mp3" type="audio/mpeg">
+        </audio>
+    
+        <audio id="audio5" controls style="display:none">
+            <source src="sounds/cries/skarmory_cry.mp3" type="audio/mpeg">
+        </audio>
+    
+        <audio id="audio6" controls style="display:none">
+            <source src="sounds/cries/snorlax_cry.mp3" type="audio/mpeg">
+        </audio>
+
+        <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
